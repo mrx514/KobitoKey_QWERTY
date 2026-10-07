@@ -63,10 +63,10 @@
 
         default_layer {
             bindings = <
-&lt 4 Q           &kp W         &kp E             &kp R        &kp T    &kp Y     &kp U        &kp I      &kp O          &kp P
-&kp A             &kp S         &kp D             &kp F        &kp G    &kp H     &kp J        &kp K      &lt 3 L        &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &kp B    &kp N     &kp M        &kp COMMA  &kp DOT        &mt RIGHT_SHIFT SLASH
-&kp LEFT_ALT      &kp LEFT_GUI  &kp LEFT_CONTROL  &lt 1 SPACE  &kp DEL  &kp BSPC  &lt 2 ENTER  &kp RSHFT  &kp RIGHT_ALT  &mt RIGHT_CONTROL SLASH
+&lt 4 Q           &kp W         &kp E                 &kp R        &kp T                      &kp Y     &kp U        &kp I       &kp O      &kp P
+&kp A             &kp S         &kp D                 &kp F        &kp G                      &kp H     &kp J        &kp K       &lt 3 L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C                 &kp V        &kp B                      &kp N     &kp M        &kp COMMA   &kp DOT    &mt RIGHT_SHIFT SLASH
+&kp LEFT_ALT      &kp LEFT_GUI  &mt LEFT_CONTROL TAB  &lt 1 SPACE  &lt 2 LANG_ZENKAKUHANKAKU  &kp BSPC  &lt 2 ENTER  &kp DELETE  &kp UNDER  &kp TAB
             >;
         };
 
@@ -83,10 +83,10 @@
         layer2 {
             label = "FUNCTION";
             bindings = <
-&kp EXCL              &kp DOUBLE_QUOTES  &kp HASH           &kp DOLLAR        &kp PERCENT    &kp F1            &kp F2             &kp F3             &kp F4     &kp F5
-&kp AT                &kp DOLLAR         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI           &kp COLON  &kp EQUAL
-&mt LEFT_SHIFT SLASH  &kp ASTRK          &kp PLUS           &kp MINUS         &kp PERIOD     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(BACKSLASH)  &trans     &kp SLASH
-&trans                &trans             &trans             &trans            &trans         &kp DEL           &trans             &trans             &trans     &kp NUBS
+&kp EXCL                     &kp LS(NUMBER_2)  &kp UP_ARROW          &kp LS(NUMBER_4)  &kp LS(PERCENT)   &kp LS(N8)             &kp LS(N9)         &kp LS(EQUAL)  &kp EQUAL             &kp LS(INT3)
+&kp KP_LEFT_PARENTHESIS      &kp LEFT_ARROW    &kp DOWN              &kp RIGHT_ARROW   &kp LS(NUMBER_6)  &kp RIGHT_BRACKET      &kp BACKSLASH      &kp SEMI       &kp SINGLE_QUOTE      &kp LS(MINUS)
+&mt LEFT_SHIFT LS(NUMBER_3)  &kp LS(N7)        &kp LS(SINGLE_QUOTE)  &kp SLASH         &kp LS(SEMI)      &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp INT_YEN    &kp LS(LEFT_BRACKET)  &kp LS(SLASH)
+&trans                       &trans            &trans                &trans            &trans            &trans                 &trans             &trans         &kp INT_YEN           &kp NUBS
             >;
         };
 
