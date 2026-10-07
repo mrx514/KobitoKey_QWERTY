@@ -84,7 +84,7 @@
             label = "FUNCTION";
             bindings = <
 &kp EXCL                     &kp LS(NUMBER_2)  &kp UP_ARROW          &kp LS(NUMBER_4)  &kp LS(PERCENT)   &kp LS(N8)             &kp LS(N9)         &kp LS(EQUAL)  &kp EQUAL             &kp LS(INT3)
-&kp KP_LEFT_PARENTHESIS      &kp LEFT_ARROW    &kp DOWN              &kp RIGHT_ARROW   &kp LS(NUMBER_6)  &kp RIGHT_BRACKET      &kp BACKSLASH      &kp SEMI       &kp SINGLE_QUOTE      &kp LS(MINUS)
+&kp LEFT_BRACKET             &kp LEFT_ARROW    &kp DOWN              &kp RIGHT_ARROW   &kp LS(NUMBER_6)  &kp RIGHT_BRACKET      &kp BACKSLASH      &kp SEMI       &kp SINGLE_QUOTE      &kp LS(MINUS)
 &mt LEFT_SHIFT LS(NUMBER_3)  &kp LS(N7)        &kp LS(SINGLE_QUOTE)  &kp SLASH         &kp LS(SEMI)      &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp INT_YEN    &kp LS(LEFT_BRACKET)  &kp LS(SLASH)
 &trans                       &trans            &trans                &trans            &trans            &trans                 &trans             &trans         &kp INT_YEN           &kp NUBS
             >;
